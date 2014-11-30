@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        .battery_content {
+            display: inline-block;
+            width: 150px;
+            border: 1px solid black;
+
+        }
+        .cell1, .cell2, .cell3, .battery_content {
+            background-color: gainsboro;
+            position: absolute;
+            height: 50px;
+
+        }
+        span.cell1:hover, span.cell2:hover, span.cell3:hover {
+            z-index: 4;
+            color: gainsboro;
+            background-color: darkgray;
+        }
+
+        span.cell1 {
+            width: 50px;
+            height: 50px;
+            border: 0;
+            z-index: 3;
+        }
+        span.cell2 {
+            width: 100px;
+            height: 50px;
+            border: 0;
+            z-index: 2;
+        }
+        span.cell3 {
+            width: 150px;
+            height: 50px;
+            border: 0;
+            z-index: 1;
+        }
+
+        span.pip {
+            display: inline-block;
+            width: 10px;
+            height: 30px;
+            vertical-align: middle;
+            text-align: right;
+            background-color: black;
+            position: relative;
+            left: 150px;
+            top: 10px;
+        }
+        .battery {
+            position: absolute;
+        }
+    </style>
+    <title></title>
+
+</head>
+<body>
+<div class="battery">
+<span class="battery_content">
+    <span class="cell1">
+    </span>
+    <span class="cell2"></span>
+    <span class="cell3"></span>
+</span>
+    <span class="pip"></span>
+</div>
+</body>
+</html>

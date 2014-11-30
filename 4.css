@@ -1,0 +1,50 @@
+p {
+   /*font-family: "segoe UI", Arial;*/
+    /*font-size: 14px;*/
+    font-weight: 400;
+    /*font: normal14px/2 Arial;*/
+    text-align: justify;
+    color: #0a0;
+    white-space: normal;
+    letter-spacing: normal;
+    text-decoration: underline;
+    direction: rtl;
+
+    /*background: #ccc url() 0 0 no-repeat, #ccc url() 0 0 no-repet; общая запись в одну строку*/
+    background-image: url (), url();
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: ;
+    background-clip: border-box, content-box;
+    margin: 20px;
+    border: 1px solid #00aa00;
+    opacity: 1;
+    widows: 500px;
+    height: 80px;
+    overflow: visible;
+    border-radius: 50px 40px 30px 20px/20px;
+    box-shadow: inset /*тень внутрь*/ 0 10px 20px antiquewhite;
+    visibility: hidden;
+    /*display: none; *//*элемент перестает занимать место*/
+
+    span {
+    display: inline;
+    width: 200px;
+    border: 1px solid grey;
+    line-height: 20px;
+    white-space: normal;
+
+    display: inline-block;
+
+    /*.class_name {*/
+    /*text-align: right;*/
+
+}
+
+}
+
+
+
+
+
+}

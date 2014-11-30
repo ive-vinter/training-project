@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        td {
+            vertical-align: top;
+        }
+
+        table, h1, h4 {
+            width: 900px;
+            margin: 0 auto 0 auto;
+        }
+
+        table {
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+        tr.bordered td{
+            border-top:1px grey solid;
+            bordercolor: grey;
+
+        }
+        td {
+            padding: 5px 0px 5px 0px;
+        }
+    </style>
+    <title></title>
+    <h1>Расчет по страховым взносам</h1>
+    <table>
+        <tr class="bordered">
+            <td colspan="2"><h4>Реквизиты формы<h4></td>
+        <tr class="bordered">
+            <td>Вид документа</td>
+            <td>
+                <input id="check1" name="text1" type="radio" size="10" value="что то" checked> <label for="check1">Первичный</label>
+                <br/>
+                <input id="check2" name="text1" type="radio" size="10" value="что то"> <label for="check2">Корректирующий</label>
+            </td>
+        <tr class="bordered">
+            <td>Номер корректировки</td>
+        <td>
+            <input name="text" type="text" size="10" maxlength="5" value="0">
+        </td>
+        </tr>
+        <tr>
+            <td>Тип корректировок</td>
+            <td>
+                <input id="u1" name="text2" type="radio" size="10" value="что то"><label for="u1">1-Уточнение уплаты....</label> <br/>
+                <input id="u2" name="text2" type="radio" size="10" value="что то"><label for="u2"> 2-Уточнение начисленных...</label><br/>
+                <input id="u3" name="text2" type="radio" size="10" value="что то"><label for="u3">3-Уточнение взносов....</label><br/>
+            </td>
+        </tr>
+    </table>
+</head>
+<body>
+
+</body>
+</html>

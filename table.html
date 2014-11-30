@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        td {
+            width: 100px;
+            height: 100px;
+            background-color: beige;
+            padding: 0px 0px 15px 15px
+        }
+        tr.bordered td{
+            border: 1px grey solid;
+            bordercolor: grey;
+        }
+        img {
+            width: 80px;
+            height: 80px;
+                        opacity: 0;
+        }
+
+        input[type=checkbox] {
+            visibility: hidden;
+        }
+
+        label {
+            width: 80px;
+            height: 80px;
+            display: block;
+        }
+
+        input[type=checkbox]:checked ~ label img {
+            opacity: 1;
+        }
+
+    </style>
+    <title></title>
+</head>
+<body>
+<table>
+    <tr class="bordered">
+        <td>
+            <input id="img1" type="checkbox">
+            <label for="img1"><img src="img/13.png" alt="img"/></label>
+        </td>
+        <td><input id="img2" type="checkbox">
+            <label for="img2"><img src="img/2.png" alt="img"/></label></td>
+        <td><input id="img3" type="checkbox">
+            <label for="img3"><img src="img/1.png" alt="img"/></label></td>
+        <td><input id="img4" type="checkbox">
+            <label for="img4"><img src="img/7.png" alt="img"/></label></td>
+    </tr>
+    <tr class="bordered">
+        <td><input id="img5" type="checkbox">
+            <label for="img5"><img src="img/8.png" alt="img"/></label></td>
+        <td><input id="img6" type="checkbox">
+            <label for="img6"><img src="img/9.png" alt="img"/></label></td>
+        <td><input id="img7" type="checkbox">
+            <label for="img7"><img src="img/18.png" alt="img"/></label></td>
+        <td><input id="img8" type="checkbox">
+            <label for="img8"><img src="img/22.png" alt="img"/></label></td>
+    </tr>
+    <tr class="bordered">
+        <td>
+            <input id="img9" type="checkbox">
+            <label for="img9"><img src="img/13.png" alt="img"/></label>
+        </td>
+        <td><input id="img10" type="checkbox">
+            <label for="img10"><img src="img/2.png" alt="img"/></label></td>
+        <td><input id="img11" type="checkbox">
+            <label for="img11"><img src="img/1.png" alt="img"/></label></td>
+        <td><input id="img12" type="checkbox">
+            <label for="img12"><img src="img/7.png" alt="img"/></label></td>
+    </tr>
+    <tr class="bordered">
+        <td><input id="img13" type="checkbox">
+            <label for="img13"><img src="img/8.png" alt="img"/></label></td>
+        <td><input id="img14" type="checkbox">
+            <label for="img14"><img src="img/9.png" alt="img"/></label></td>
+        <td><input id="img15" type="checkbox">
+            <label for="img15"><img src="img/18.png" alt="img"/></label></td>
+        <td><input id="img16" type="checkbox">
+            <label for="img16"><img src="img/22.png" alt="img"/></label></td>
+    </tr>
+</table>
+</body>
+</html>

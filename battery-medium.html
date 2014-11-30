@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        .battery_content {
+            display: inline-block;
+            width: 150px;
+            border: 1px solid black;
+
+        }
+        .red_cell, .yellow_cell, .green_cell, .battery_content {
+            background-color: gainsboro;
+            position: absolute;
+            height: 50px;
+
+        }
+        span.red_cell:hover, span.yellow_cell:hover, span.green_cell:hover {
+            z-index: 4;
+        }
+
+        span.red_cell {
+            width: 50px;
+            height: 50px;
+            border: 0;
+            z-index: 3;
+        }
+        span.red_cell:hover {
+            background: red;
+            color: gainsboro;
+        }
+
+        span.yellow_cell {
+            width: 100px;
+            height: 50px;
+            border: 0;
+            z-index: 2;
+        }
+        span.yellow_cell:hover {
+            background: yellow;
+            color: gainsboro;
+        }
+        span.green_cell {
+            width: 150px;
+            height: 50px;
+            border: 0;
+            z-index: 1;
+        }
+        span.green_cell:hover {
+            background: green;
+            color: gainsboro;
+        }
+
+        span.pip {
+            display: inline-block;
+            width: 10px;
+            height: 30px;
+            vertical-align: middle;
+            text-align: right;
+            background-color: black;
+            position: relative;
+            left: 150px;
+            top: 10px;
+        }
+        span.bordered {
+            width: 16px;
+            height: 48px;
+            border: 0, 1px, 0. 0 solid black;
+            background-color: gainsboro;
+            z-index: 5;
+            opacity: 1;
+        }
+        .battery {
+            position: absolute;
+        }
+        .border{
+            width: 2px;
+            height: 50px;
+            display: inline-block;
+            position: absolute;
+            background-color: white;
+            z-index: 100;
+        }
+        .border1{
+            left: 50px;
+        }
+        .border2 {
+            left: 100px;
+        }
+    </style>
+    <title></title>
+
+</head>
+<body>
+<div class="battery">
+<span class="battery_content">
+    <span class="red_cell"></span>
+    <span class="border border1"></span>
+    <span class="yellow_cell"></span>
+    <span class="border border2"></span>
+    <span class="green_cell"></span>
+</span>
+    <span class="pip"></span>
+</div>
+</body>
+</html>

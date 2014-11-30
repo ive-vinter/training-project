@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <style>
+        input [type="file"] {
+            /*opacity: 0;*/
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<iframe src="http://bash.im" width="500"height="300"></iframe>
+<form enctype="multipart/form-data" action="http://ya.ru/" metod="post" target="_top" /*frameid*/>
+    <input type="submit">
+<input name="text" type="text" size="10" maxlength="5" value="example" placeholder="значение"/*количество символов*/>
+<br>
+<input name="text" type="password" size="10" maxlength="5">
+<br>
+<input name="text" type="file" size="10" maxlength="5">
+<br>
+<input name="text" type="file" multiple="multiple" size="10" maxlength="5">
+<br>
+<input type="checkbox" >Text
+<br/>
+<input type="checkbox" >Text1111
+<br>
+<input id="ch1" name="text1" type="radio" size="10" value="что то"> <label for="ch1"> 111111</label>
+       <br/>
+<input name="text1" type="radio" size="10" value="что то"> 222222
+       <br/>
+<input name="text1" type="radio" size="10" value="что то" checked> 33333
+       <br/>
+
+<textarea rows="5" cols="50">
+    Из первой лекции я не стал рассказывать вам про браузеры и движки, т.к. это сугубо теоретическая информация. Основная мысль заключается в том, что в разных браузерах разные баги, но если они на одном движке – могут быть еще и одинаковые. Главное, что нужно знать – в 99 случаев из 100 IE хуже всех остальных :) Из этого следует, что сверсатв под Chrome/Firefox нужно обязательно проверить в IE.
+</textarea>
+<br/>
+<select>
+    <option>1111</option>
+    <option selected /*multiple - выбор нескольких вариантов из списка*/ value="1">2222</option>
+    <option>33333333333333333333</option>
+    <option>4444</option>
+    <option>2222</option>
+</select>
+<input type="submit">
+<br/>
+<input type="date" /*почти не поддерживается браузерами*/>
+<br/>
+<input type="color">
+</form>
+</body>
+</html>
