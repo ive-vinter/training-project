@@ -1,0 +1,99 @@
+        .battery {
+            position: absolute;
+			}
+        .battery_content {
+            display: inline-block;
+            width: 150px;
+            border: 1px solid black;
+
+        }
+        .red_cell, .yellow_cell, .green_cell, .battery_content {
+            background-color: gainsboro;
+            position: absolute;
+            height: 50px;
+
+        }
+        .red_cell:hover, .yellow_cell:hover, .green_cell:hover {
+            z-index: 4;
+        }
+
+        .red_cell {
+            width: 50px;
+            height: 50px;
+            border: 0;
+            z-index: 3;
+        }
+        .red_cell:hover {
+            background: red;
+            color: gainsboro;
+        }
+
+        .yellow_cell {
+            width: 100px;
+            height: 50px;
+            border: 0;
+            z-index: 2;
+        }
+        .yellow_cell:hover {
+            background: yellow;
+            color: gainsboro;
+        }
+        .green_cell {
+            width: 150px;
+            height: 50px;
+            border: 0;
+            z-index: 1;
+        }
+        .green_cell:hover {
+            background: green;
+            color: gainsboro;
+        }
+
+        .pip {
+            display: inline-block;
+            width: 10px;
+            height: 30px;
+            background-color: black;
+            position: relative;
+            left: 150px;
+            top: 10px;
+        }
+      
+        .border{
+            width: 2px;
+            height: 50px;
+            display: inline-block;
+            position: absolute;
+            background-color: white;
+            z-index: 5;
+        }
+        .border1{
+            left: 50px;
+        }
+        .border2 {
+            left: 100px;
+        }
+		.border3 {
+			left: 11.1%
+		}
+		.border4 {
+			left: 22.2%
+		}
+		.border5 {
+			left: 33.3%
+		}
+		.border6 {
+			left: 44.4%
+		}
+		.border7 {
+			left: 55.5%
+		}
+		.border8 {
+			left: 66.6%
+		}
+		.border9 {
+			left: 77.7%
+		}
+		.border10 {
+			left: 88.8%
+		}
